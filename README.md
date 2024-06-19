@@ -1,8 +1,14 @@
 # ESP32 Radio Server
 
+FM radio using ESP32 and RDA5807, including control panel that can be operated from a web browser.
+
+## Wiring Diagram
+
+![wiring-diagram](./wiring-diagram.png)
+
 ## Build
 
-Rewrite platformio.ini to your environment.
+Rewrite `platformio.ini` to your environment before building.
 
 ```ini
 [env]
